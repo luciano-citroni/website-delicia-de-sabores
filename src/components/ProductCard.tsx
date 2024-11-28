@@ -14,7 +14,7 @@ function ProductCard({product}: {product: any}) {
         <CardContent className='flex flex-col aspect-square justify-center p-3 md:p-6'>
              <div className='min-h-48 h-full md:max-h-80 w-full relative mx-auto'>
                 <Image
-                    src={product.image?.url ? `https://backend-teste-sorveteria.qpohid.easypanel.host${product.image.url}` : '/assets/placeholder.png'}
+                    src={product.image?.url ? `https://delicia-de-sabores.vercel.app${product.image.url}` : '/assets/placeholder.png'}
                     alt={product.name}
                     fill
                     className='object-center object-cover rounded-md'
